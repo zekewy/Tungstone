@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import "@rainbow-me/rainbowkit/styles.css";
+
+@theme {
+  --font-display: "Oswald", sans-serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-stone: #E4E2DC;
+  --color-stone-bright: #FBF9F3;
+  --color-surface: #ECEAE4;
+  --color-surface-low: #F6F3ED;
+  --color-graphite: #23272B;
+  --color-graphite-hover: #33393F;
+  --color-steel: #4B525C;
+  --color-steel-muted: #6B7480;
+  --color-lime: #C6F432;
+  --color-lime-hover: #D4F758;
+  --color-lime-ink: #161F00;
+  --color-error-bg: #FFDAD6;
+  --color-error-ink: #93000A;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: #E4E2DC;
+    color: #23272B;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  button,
+  a,
+  input,
+  select {
+    outline-color: #23272B;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

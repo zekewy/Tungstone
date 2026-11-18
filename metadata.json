@@ -1,0 +1,6 @@
+{
+  "name": "Tungstone",
+  "description": "Tungstone parks idle USDC in tokenized treasury yield. Built on Arc.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
